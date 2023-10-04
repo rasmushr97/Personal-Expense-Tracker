@@ -9,6 +9,7 @@ from pydantic import RootModel
 import pandas as pd
 import numpy as np
 
+
 VALUTA = "Kr"
 
 class ExpenseManager():
