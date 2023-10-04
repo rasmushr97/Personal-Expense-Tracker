@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "personal-finance-dashboard"
+version = "0.1.0"
+description = ""
+authors = ["rasmushr97 <rasmushr97@gmail.com>"]
+readme = "README.md"
+packages = [{include = "personal_finance_dashboard"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.27.0"
+pydantic = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
