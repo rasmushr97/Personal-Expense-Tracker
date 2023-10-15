@@ -10,6 +10,8 @@ packages = [{include = "personal_finance_dashboard"}]
 python = "^3.11"
 streamlit = "^1.27.0"
 pydantic = "^2.3.0"
+supabase = "^1.2.0"
+streamlit-supabase-auth = "^1.0.2"
 
 
 [build-system]
